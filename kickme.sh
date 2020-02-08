@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker-compose down && docker-compose pull --ignore-pull-failures && docker-compose up -d
+docker-compose pull && docker-compose up -d --force-recreate
